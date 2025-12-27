@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="GLOBAL_STRING_COVER" xml:space="preserve"><value>Front Cover</value></data>
+  <data name="OpsCfgEditor_Scan_576iPAL" xml:space="preserve"><value>576i - (default for PAL games)</value></data>
+  <data name="OpsCfgEditor_Scan_576pGSM" xml:space="preserve"><value>576p - (GSM setting)</value></data>
+  <data name="MAIN_TOOLBAR_BATCH" xml:space="preserve"><value>Batch Actions</value></data>
+  <data name="MAIN_TOOLBAR_HELP_PSXPLACE" xml:space="preserve"><value>Forum thread on PSX-Place</value></data>
+  <data name="MAIN_TOOLBAR_TOOLS" xml:space="preserve"><value>Tools</value></data>
+  <data name="ToolsConvertIsoNames_TableFormat" xml:space="preserve"><value>Format</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_WITH_DISC" xml:space="preserve"><value>Disc</value></data>
+  <data name="BatchCfgUpdate_StartingUpgradeProcess" xml:space="preserve"><value>Starting CFGs upgrade process...</value></data>
+  <data name="ConfigIO_Upgrading" xml:space="preserve"><value>Upgrading:</value></data>
+  <data name="OpsCfgEditorGsmSkipVideos" xml:space="preserve"><value>Skip videos</value></data>
+  <data name="OpsArtDownload_ResizeTargetSmaller" xml:space="preserve"><value>Image is smaller than the target size!</value></data>
+  <data name="MAIN_TAB_MAIN_GLOBALSTATS" xml:space="preserve"><value>Global Stats</value></data>
+  <data name="ToolsConvertVcdNames_TestRunComplete" xml:space="preserve"><value>Test Run Complete. Uncheck the '{0}' checkbox to actually rename the files.</value></data>
+  <data name="ToolsIsoCreator_NoSaveFileSelected" xml:space="preserve"><value>No save file selected.</value></data>
+  <data name="MAIN_STRINGS_RENAME_CONFIRM" xml:space="preserve"><value>Confirm title change</value></data>
+  <data name="OpsCfgEditorVmcBrowse_Title" xml:space="preserve"><value>Select a VMC from the list</value></data>
+  <data name="OpsCfgEditor_ConfigPreview" xml:space="preserve"><value>Config Preview</value></data>
+  <data name="SettingsGameDoubleClick_Preview" xml:space="preserve"><value>Preview:</value></data>
+  <data name="OpsCfgEditor_Release" xml:space="preserve"><value>Release date:</value></data>
+  <data name="OpsCheatEditor1_Codes_NoPal" xml:space="preserve"><value>Disables POPStarters’ PAL patcher.</value></data>
+  <data name="OpsCheatEditor1_Codes_NOIGR" xml:space="preserve"><value>Disables the IGR menu.</value></data>
+  <data name="GLOBAL_STRING_SCREENSHOTS" xml:space="preserve"><value>Screenshots</value></data>
+  <data name="OpsCheatEditor1_Codes_Comp5" xml:space="preserve"><value>Made for fixing the cutscenes of the PAL Resident Evil: Director’s Cut.</value></data>
+  <data name="OpsCheatEditor1_Codes_Comp4" xml:space="preserve"><value>Fixes slowdowns, flickering, and many other glitches.</value></data>
+  <data name="OpsCheatEditor1_Codes_Comp7" xml:space="preserve"><value>Fixes the missing textures problems.</value></data>
+  <data name="OpsCheatEditor1_Codes_Comp6" xml:space="preserve"><value>Disables the OSD shell of the emulator’s built-in BIOS, making some games that freeze on startup run.</value></data>
+  <data name="OpsCheatEditor1_Codes_Comp1" xml:space="preserve"><value>Helps restoring the music/voices In several games.</value></data>
+  <data name="OpsCheatEditor1_Codes_Comp3" xml:space="preserve"><value>Can be used If the mode 0×01 doesn't provide the expected results.</value></data>
+  <data name="OpsCheatEditor1_Codes_Comp2" xml:space="preserve"><value>A Variant Of mode 0×01, With a second hack For Not breaking the MDECoding Of FMVs.</value></data>
+  <data name="MAIN_TOOLBAR_BATCH_ART_SHARE" xml:space="preserve"><value>Share all ARTs</value></data>
+  <data name="Global_SaveChanges" xml:space="preserve"><value>Save changes?</value></data>
+  <data name="OpsArtDownloadReport_SubmitError" xml:space="preserve"><value>Error submitting report.</value></data>
+  <data name="MAIN_TAB_MAIN_TABLE_COL_CFG" xml:space="preserve"><value>CFG</value></data>
+  <data name="OpsCfgEditorGsmEnable" xml:space="preserve"><value>Enable GSM</value></data>
+  <data name="SettingAutoUpdate_Text" xml:space="preserve"><value>Automatically check for updates on start-up.</value></data>
+  <data name="MAIN_STRINGS_RENAME_INVALID_CHARS" xml:space="preserve"><value>Title contains invalid characters!
+  Allowed:</value></data>
+  <data name="Global_Error" xml:space="preserve"><value>Error</value></data>
+  <data name="MAIN_STRINGS_RENAME_INVALID_TITLE" xml:space="preserve"><value>Invalid Title!</value></data>
+  <data name="ToolsConvertVcdNames_DeleteELF" xml:space="preserve"><value>ELF DELETE:</value></data>
+  <data name="MAIN_STRINGS_OPL_FOLDER_SETTINGS_NOT_EXISTS_TITLE" xml:space="preserve"><value>Invalid OPL directory!</value></data>
+  <data name="Global_CopyLog" xml:space="preserve"><value>Copy LOG</value></data>
+  <data name="OpsArtDownload_8BitPngRequired" xml:space="preserve"><value>Image should be in 8bit indexed PNG format</value></data>
+  <data name="BatchArtDownload_ReplaceIfExists" xml:space="preserve"><value>Replace if exists</value></data>
+  <data name="OpsCheatEditor1_TipDoubleClick" xml:space="preserve"><value>Double click a code to add it to the cheat file.</value></data>
+  <data name="BatchArtShare_MsgNothingToShare" xml:space="preserve"><value>You don't have any new ART to share!</value></data>
+  <data name="Global_ServerFetchError" xml:space="preserve"><value>A error occurred while fetching the response from the server!</value></data>
+  <data name="OpsCheatEditor_DeleteAlert" xml:space="preserve"><value>You sure you want to delete this cheat?</value></data>
+  <data name="Global_ButtonClear" xml:space="preserve"><value>Clear</value></data>
+  <data name="OpsArtDownload_SizesError" xml:space="preserve"><value>Image should be {0}</value></data>
+  <data name="OpsCfgEditor_CreateVMC" xml:space="preserve"><value>Would you to create a VMC with the name '{0}'?</value></data>
+  <data name="ToolsCleanFiles_LogInvalidTargetFolder" xml:space="preserve"><value>Invalid target directory selected</value></data>
+  <data name="BatchArtShare_LogCopyingToFolder" xml:space="preserve"><value>Copying to folder:</value></data>
+  <data name="OpsCheatEditor1_Codes_MuteVAB" xml:space="preserve"><value>Mute VAB/VAG/VB+VH based sounds/music on games.</value></data>
+  <data name="ToolsIsoCreator_SourceFileNotExist" xml:space="preserve"><value>Source file doesn't exist!</value></data>
+  <data name="OpsCfgEditor_CompatibilityModes" xml:space="preserve"><value>Compatibility Modes:</value></data>
+  <data name="DialogLoadingGames_Progress" xml:space="preserve"><value>Loaded {0} games</value></data>
+  <data name="Global_String_OperationCanceled" xml:space="preserve"><value>Operation has been canceled.</value></data>
+  <data name="MAIN_STRINGS_RENAME_FILE_BIG_NAME" xml:space="preserve"><value>Title is &gt;32 characters long!! Make it shorter!</value></data>
+  <data name="OpsCfgEditorCheats" xml:space="preserve"><value>Cheats</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_MISSING_COVER_OR_AND_DISC" xml:space="preserve"><value>Cover and/or Disc</value></data>
+  <data name="MAIN_TAB_MAIN_TABLE_COL_MEDIUM" xml:space="preserve"><value>Type</value></data>
+  <data name="OpsCfgEditorGsmAdjustXY" xml:space="preserve"><value>H/V Adjust</value></data>
+  <data name="GLOBAL_BUTTON_SAVE" xml:space="preserve"><value>Save</value></data>
+  <data name="GLOBAL_BUTTON_STOP" xml:space="preserve"><value>Stop</value></data>
+  <data name="OpsCfgEditor_DefaultRatingSystemPromptTitle" xml:space="preserve"><value>Default Rating System</value></data>
+  <data name="ToolsIsoCreator_NoDisc" xml:space="preserve"><value>No Disc</value></data>
+  <data name="MAIN_TOOLBAR_TOOLS_APPINSTALLER" xml:space="preserve"><value>APP installer</value></data>
+  <data name="OpsArtDownload_NoScrFound" xml:space="preserve"><value>No Screenshots found!</value></data>
+  <data name="MAIN_TOOLBAR_SETTINGS_AUTOUPDATE" xml:space="preserve"><value>Auto Update Check</value></data>
+  <data name="ToolsIsoCreator_GameTitle" xml:space="preserve"><value>Title:</value></data>
+  <data name="MAIN_STRINGS_OPL_FOLDER_SETTINGS_NOT_EXISTS" xml:space="preserve"><value>OPL Folder from settings doesn't exist!
+Please set a new one in the next window!</value></data>
+  <data name="CfgEditor_GetTitleSuccess" xml:space="preserve"><value>Got title.</value></data>
+  <data name="SettingModeSelect_SetNormal" xml:space="preserve"><value>Normal Settings</value></data>
+  <data name="Global_ButtonCreate" xml:space="preserve"><value>Create</value></data>
+  <data name="SettingModeSelect_HdlVersion" xml:space="preserve"><value>HDL Dump Version</value></data>
+  <data name="MAIN_TOOLBAR_SETTINGS_DOUBLE_CLICK" xml:space="preserve"><value>Set double click action</value></data>
+  <data name="MAIN_TAB_MAIN_OPERATIONS_MANAGE_ARTS" xml:space="preserve"><value>Manage ARTs</value></data>
+  <data name="OpsCfgEditor_GsmDisable" xml:space="preserve"><value>Disable GSM</value></data>
+  <data name="MAIN_TAB_MAIN_OPERATIONS_TITLE" xml:space="preserve"><value>Rename</value></data>
+  <data name="MAIN_TOOLBAR_HELP_ABOUT" xml:space="preserve"><value>About</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_MISSING_COVER" xml:space="preserve"><value>Cover</value></data>
+  <data name="OpsCfgEditor_Scan_480iNTSC" xml:space="preserve"><value>480i - (default for NTSC games)</value></data>
+  <data name="OpsCfgEditorVmcCreate_Title" xml:space="preserve"><value>Create new VMC</value></data>
+  <data name="OpsCfgEditor_Scan_480pGame" xml:space="preserve"><value>480p - (can be set in game's settings)</value></data>
+  <data name="SettingsIsoNaming_Enforce" xml:space="preserve"><value>Mark ISOs that don't use the selected format as invalid.</value></data>
+  <data name="MAIN_TAB_MAIN_OPERATIONS_DELETE" xml:space="preserve"><value>Delete Game</value></data>
+  <data name="ToolsIsoCreator_Title" xml:space="preserve"><value>CD/DVD/image file to ISO</value></data>
+  <data name="MAIN_TOOLBAR_FILE_EXIT" xml:space="preserve"><value>Exit</value></data>
+  <data name="MAIN_TAB_MAIN_OPERATIONS_HASH" xml:space="preserve"><value>Game Hash</value></data>
+  <data name="MAIN_TAB_MAIN_TABLE_COL_SIZE" xml:space="preserve"><value>Size</value></data>
+  <data name="MAIN_TAB_MAIN_TABLE_COL_TYPE" xml:space="preserve"><value>Type</value></data>
+  <data name="MAIN_TAB_MAIN_TABLE_COL_GAME" xml:space="preserve"><value>Title</value></data>
+  <data name="MainBad_NewFile" xml:space="preserve"><value>New file name:</value></data>
+  <data name="ToolsCleanFiles_LogFoundDry" xml:space="preserve"><value>This is a dry run, the files found were:</value></data>
+  <data name="OpsArtDownload_NoLgoFound" xml:space="preserve"><value>No logo found!</value></data>
+  <data name="SettingModeSelect_ModeLocalHDD" xml:space="preserve"><value>Local PS2 HDD</value></data>
+  <data name="SettingModeSelect_ModeNormal" xml:space="preserve"><value>Normal (iso + zso + ul.cfg)</value></data>
+  <data name="OpsCfgEditor_Title" xml:space="preserve"><value>Title:</value></data>
+  <data name="MAIN_TAB_MAIN" xml:space="preserve"><value>Home</value></data>
+  <data name="OpsCfgEditor_Vmode" xml:space="preserve"><value>V-Mode:</value></data>
+  <data name="OpsCfgEditor_Genre" xml:space="preserve"><value>Genre:</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_WITH" xml:space="preserve"><value>Show only games with...</value></data>
+  <data name="ToolsConvertIsoNames_WithSelected" xml:space="preserve"><value>With Selected ISOs</value></data>
+  <data name="OpsCfgEditor_Notes" xml:space="preserve"><value>Notes:</value></data>
+  <data name="MAIN_TAB_MAIN_GLOBALSTATS_SIZE" xml:space="preserve"><value>Size</value></data>
+  <data name="SettingModeSelect_ModeNetwork" xml:space="preserve"><value>Network (hdlserver + FTP)</value></data>
+  <data name="SettingsGameDoubleClick_Note" xml:space="preserve"><value>EXE: The application executable.
+    Example: D:\PS2\Tools\SomeTool.exe
+
+    Params:The parameters to pass to the app.
+    Example: -file [FILE] -gameid [ID]</value></data>
+  <data name="MAIN_STRINGS_SERVER_TIME" xml:space="preserve"><value>Server Time:</value></data>
+  <data name="OpsArtDownloadReport_Submited" xml:space="preserve"><value>Report submited sucessfully!</value></data>
+  <data name="ConfigIO_UpdateComplete" xml:space="preserve"><value>CFG update finished CFG is now at V.{0}</value></data>
+  <data name="ToolsCleanFiles_GroupAction" xml:space="preserve"><value>Action</value></data>
+  <data name="GlobalString_OperationComplete" xml:space="preserve"><value>Operation has been completed.</value></data>
+  <data name="ToolsConvertVcdNames_RenamingVmc" xml:space="preserve"><value>VMC RENAME:</value></data>
+  <data name="ToolsConvertVcdNames_RenamingVCD" xml:space="preserve"><value>VCD RENAME:</value></data>
+  <data name="ToolsConvertVcdNames_RenamingCfg" xml:space="preserve"><value>CFG RENAME:</value></data>
+  <data name="ToolsConvertVcdNames_RenamingArt" xml:space="preserve"><value>ART RENAME:</value></data>
+  <data name="Global_PleaseUseTheSaveBtn" xml:space="preserve"><value>Please use the save button!</value></data>
+  <data name="MAIN_STRINGS_BAD_ISO_TAB" xml:space="preserve"><value>Invalid files</value></data>
+  <data name="ToolsIsoCreator_InvalidInputFile" xml:space="preserve"><value>Invalid input file selected!</value></data>
+  <data name="OpsCfgEditorVmcCreate_AlreadyExists" xml:space="preserve"><value>A VMC with this name already exists!</value></data>
+  <data name="OpsCheatEditor_UnsavedChangesAlert" xml:space="preserve"><value>Do you want to save changes?</value></data>
+  <data name="SettingsGameDoubleClick_Enable" xml:space="preserve"><value>Enable Double Click Action</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_MISSING_DISC" xml:space="preserve"><value>Disc</value></data>
+  <data name="OpsCfgEditor_Players" xml:space="preserve"><value>No. of Players:</value></data>
+  <data name="ToolsConvertVcdNames_ErrorRenamingDirectory" xml:space="preserve"><value>ERROR RENAMING DIRECTORY!!!</value></data>
+  <data name="OpsCheatEditor1_Codes_00507028" xml:space="preserve"><value>Rumble Always On (Pad 1).</value></data>
+  <data name="OpsCheatEditor1_Codes_005070B8" xml:space="preserve"><value>Rumble Always On (Pad 2).</value></data>
+  <data name="OpsArtDownloadReport_Explain" xml:space="preserve"><value>Please explain the problem in the text box. Please type in english!</value></data>
+  <data name="ToolsDiskToIsoZso_Title" xml:space="preserve"><value>Disk to ISO/ZSO</value></data>
+  <data name="BatchArtShare_MsgCheckingArtForGames" xml:space="preserve"><value>Uploading ART for {0} games.</value></data>
+  <data name="OpsCfgEditor_Scan_480pTriangleCross" xml:space="preserve"><value>480p - (press Triangle and Cross when loading game)</value></data>
+  <data name="BatchArtShare_MsgBadOrError" xml:space="preserve"><value>Invalid image or other error</value></data>
+  <data name="MAIN_STRINGS_DOUBLECLICK_HINTMSG" xml:space="preserve"><value>To be able to double click and launch some application you need to configure it on Settings</value></data>
+  <data name="OpsCfgEditor_Players4" xml:space="preserve"><value>4 Players</value></data>
+  <data name="OpsCfgEditor_Players1" xml:space="preserve"><value>1 Player</value></data>
+  <data name="OpsCfgEditor_Players3" xml:space="preserve"><value>3 Players</value></data>
+  <data name="OpsCfgEditor_Players2" xml:space="preserve"><value>2 Players</value></data>
+  <data name="ToolsConvertVcdNames_CbTestRun" xml:space="preserve"><value>Test Run</value></data>
+  <data name="OpsCheatEditor1_Codes_CodecacheAddon0" xml:space="preserve"><value>A variant of $COMPATIBILITY_0×04.</value></data>
+  <data name="ConfigIO_VersionMissing" xml:space="preserve"><value>This CFG doesn't have a version, either its old or empty! Trying to update...</value></data>
+  <data name="ToolsIsoCreator_IsoSuccess" xml:space="preserve"><value>ISO created successfully!</value></data>
+  <data name="OpsCfgEditor_Scan_1080pGSM" xml:space="preserve"><value>1080p - (GSM setting)</value></data>
+  <data name="OpsCfgEditor_Scan_1080iGSM" xml:space="preserve"><value>1080i - (GSM setting)</value></data>
+  <data name="OpsCfgEditor_Scan_240pDefault" xml:space="preserve"><value>240p - (default for some NTSC games)</value></data>
+  <data name="GLOBAL_STRING_LOGO" xml:space="preserve"><value>Logo</value></data>
+  <data name="GLOBAL_STRING_MODE" xml:space="preserve"><value>Mode:</value></data>
+  <data name="GLOBAL_STRING_DISC" xml:space="preserve"><value>Disc</value></data>
+  <data name="OpsCheatEditor1_Codes_480p" xml:space="preserve"><value>Forces 480p.</value></data>
+  <data name="OpsCheatEditor1_Codes_XPOS" xml:space="preserve"><value>Centers the screen horizontally.</value></data>
+  <data name="OpsCheatEditor1_Codes_YPOS" xml:space="preserve"><value>Centers the screen vertically.</value></data>
+  <data name="OpsCheatEditor1_Codes_D2LS" xml:space="preserve"><value>'Left Stick is the D-Pad' code + Stay on Digital Mode.</value></data>
+  <data name="OpsCheatEditor1_Codes_IGR0" xml:space="preserve"><value>Open IGR Menu (L1 + L2 + R1 + R2 + X + Down)</value></data>
+  <data name="OpsCheatEditor1_Codes_IGR1" xml:space="preserve"><value>Open IGR Menu (Select + Start)</value></data>
+  <data name="OpsCheatEditor1_Codes_IGR2" xml:space="preserve"><value>Open IGR Menu (L1 + L2 + R1 + R2 + Select + Start)</value></data>
+  <data name="OpsCheatEditor1_Codes_IGR3" xml:space="preserve"><value>Terminates POPS (L1 + L2 + R1 + R2 + X + Down)</value></data>
+  <data name="OpsCheatEditor1_Codes_IGR4" xml:space="preserve"><value>Terminates POPS (Select + Start)</value></data>
+  <data name="OpsCheatEditor1_Codes_IGR5" xml:space="preserve"><value>Terminates POPS (L1 + L2 + R1 + R2 + Select + Start)</value></data>
+  <data name="OpsCfgEditorVmcCreate_Name" xml:space="preserve"><value>Name:</value></data>
+  <data name="OpsCfgEditorVmcCreate_Size" xml:space="preserve"><value>Size in MB:</value></data>
+  <data name="MAIN_TOOLBAR_LOCALHDD_GETGAMES" xml:space="preserve"><value>Get game list</value></data>
+  <data name="MAIN_STRINGS_RENAME_FILE_FAILED" xml:space="preserve"><value>Updating title has failed.</value></data>
+  <data name="GLOBAL_STRING_BACKGROUNDS" xml:space="preserve"><value>Background</value></data>
+  <data name="MAIN_STRINGS_USERS_ONLINE" xml:space="preserve"><value>Users On-line:</value></data>
+  <data name="MAIN_TOOLBAR_FILE_EXPORT_CSV" xml:space="preserve"><value>Export game list to CSV</value></data>
+  <data name="OpsCfgEditor_VmcDeleteQuestion" xml:space="preserve"><value>Do you want to also delete the VMC?</value></data>
+  <data name="SettingsGameDoubleClick_Available" xml:space="preserve"><value>Available parameters: [FILE] [ID]</value></data>
+  <data name="ToolsDiskToIsoZso_IsoFileIsInvalid" xml:space="preserve"><value>The ISO file is invalid</value></data>
+  <data name="MAIN_TOOLBAR_LOCALHDD" xml:space="preserve"><value>Local HDD Options</value></data>
+  <data name="MAIN_TOOLBAR_NETWORKOPTIONS" xml:space="preserve"><value>Network Options</value></data>
+  <data name="GLOBAL_BUTTON_SAVE_CLOSE" xml:space="preserve"><value>Save and Close</value></data>
+  <data name="SettingModeSelect_SetNetClearCache" xml:space="preserve"><value>Clear cache</value></data>
+  <data name="ConfigIO_AlreadyLastVersion" xml:space="preserve"><value>File is already latest version!</value></data>
+  <data name="OpsArtDownload_SizeGenericResizePNG" xml:space="preserve"><value>Image should be {0} and PNG format with transparency!</value></data>
+  <data name="OpsArtDownload_NoBgFound" xml:space="preserve"><value>No Backgrounds found!</value></data>
+  <data name="Global_String_Progress" xml:space="preserve"><value>Progress:</value></data>
+  <data name="OpsCfgEditor_Aspect" xml:space="preserve"><value>Aspect:</value></data>
+  <data name="MAIN_TOOLBAR_HELP_PS2HOME" xml:space="preserve"><value>Forum thread on PS2 Home</value></data>
+  <data name="BatchCfgUpdate_ProcessingFile" xml:space="preserve"><value>Updating CFG:</value></data>
+  <data name="ToolsDiskToIsoZso_ZsoFileNotFound" xml:space="preserve"><value>The ZSO file was not found</value></data>
+  <data name="BatchArtDownload_OptExtraDisc" xml:space="preserve"><value>Download Disc</value></data>
+  <data name="BatchArtDownload_OptExtraLogo" xml:space="preserve"><value>Download Logo</value></data>
+  <data name="BatchArtDownload_OptExtraBack" xml:space="preserve"><value>Download Back Cover</value></data>
+  <data name="OpsCfgEditorVmcBrowse_Select" xml:space="preserve"><value>Select</value></data>
+  <data name="Global_Question" xml:space="preserve"><value>Question</value></data>
+  <data name="OpsCheatEditor1_Codes_UsbDelay" xml:space="preserve"><value>Sets up the PFS wrapper USB delay.</value></data>
+  <data name="ToolsConvertVcdNames_GameHasInvalidID2" xml:space="preserve"><value>You will be asked to give one when renaming. Using {0} for the test run.</value></data>
+  <data name="ToolsConvertVcdNames_GameHasInvalidID1" xml:space="preserve"><value>The game '{0}' doesn't have a valid game ID!</value></data>
+  <data name="BatchArtDownload_OptExtraBG" xml:space="preserve"><value>Download random Background</value></data>
+  <data name="OpsArtDownload_Connected" xml:space="preserve"><value>Got available ART from server.</value></data>
+  <data name="BatchArtShare_MsgUploadOK" xml:space="preserve"><value>Uploaded successfully</value></data>
+  <data name="MAIN_STRINGS_RENAME_FILE_EXISTS" xml:space="preserve"><value>There's already a file with the same name in the folder!</value></data>
+  <data name="MAIN_TOOLBAR_TOOLS_ISOCONV" xml:space="preserve"><value>Disc/Convert to ISO</value></data>
+  <data name="BatchArtShare_ShareToFolder" xml:space="preserve"><value>Copy to folder</value></data>
+  <data name="MainBad_Size" xml:space="preserve"><value>Size:</value></data>
+  <data name="MAIN_TOOLBAR_SETTINGS" xml:space="preserve"><value>Settings</value></data>
+  <data name="SettingAutoUpdate_Title" xml:space="preserve"><value>Auto Updates</value></data>
+  <data name="MAIN_TOOLBAR_SETTINGS_CFGDEV" xml:space="preserve"><value>Enable/Disable use of CFG-DEV folder</value></data>
+  <data name="OpsCfgEditor_GsmDisableDelete" xml:space="preserve"><value>You disabled GSM. Should the GSM settings be deleted?</value></data>
+  <data name="OpsCfgEditorCheatDevice" xml:space="preserve"><value>Cheat Device:</value></data>
+  <data name="MAIN_STRINGS_CHOOSE_OPL_FOLDER_INPUT" xml:space="preserve"><value>Type in a path. Examples:\\SERVER\FOLDER, D:\ps2\games</value></data>
+  <data name="GLOBAL_STRING_BACK_COVER" xml:space="preserve"><value>Back Cover</value></data>
+  <data name="MAIN_STRINGS_CHOOSE_OPL_FOLDER" xml:space="preserve"><value>Yes: Manually type a path
+No: Select using browser
+If you don't know what this is just press NO</value></data>
+  <data name="ToolsDiskToIsoZso_NoFreeSpace" xml:space="preserve"><value>Not enough space on the destination folder</value></data>
+  <data name="OpsArtDownload_NoLabFound" xml:space="preserve"><value>No Spine found!</value></data>
+  <data name="BatchArtDownload_OptExtraSpine" xml:space="preserve"><value>Download Spine</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_WITH_COVER" xml:space="preserve"><value>Cover</value></data>
+  <data name="ToolsConvertVcdNames_Explain" xml:space="preserve"><value>This tool allows you to convert old format VCD filenames and it's associated ELF,ART,CFG,VMC files.
+Example:
+OLD: Grand Theft Auto 2.VCD
+NEW: SLES_014.04.Grand Theft Auto 2.VCD
+
+Mode - Select the mode you are currently using. This will affect the prefix  (XX. / SB.)
+Test Run - This allows you to see what it will be renamed without actually doing it.
+Delete ELFs - If checked it will delete the ELF files associated with the VCD.
+Copy LOG - Allows you to copy the Log
+Start - Starts the process
+
+Please note that with the new OPL from PS2-Home you no longer need ELF files for each game.</value></data>
+  <data name="BatchArtShare_Title" xml:space="preserve"><value>Share Arts</value></data>
+  <data name="MAIN_STRINGS_RENAME_PROMPT" xml:space="preserve"><value>Insert new game title (Max 32 chars)</value></data>
+  <data name="OpsCfgEditorVmcBrowse_ColSize" xml:space="preserve"><value>Size</value></data>
+  <data name="OpsCfgEditorVmcBrowse_ColName" xml:space="preserve"><value>VMC Name</value></data>
+  <data name="ToolsDiskToIsoZso_DriveEmptyOrNotReady" xml:space="preserve"><value>The drive is empty or not ready</value></data>
+  <data name="BatchArtDownload_Game" xml:space="preserve"><value>Game:</value></data>
+  <data name="BatchArtDownload_Last" xml:space="preserve"><value>Last game processed</value></data>
+  <data name="OpsArtDownload_IgnoreGame" xml:space="preserve"><value>Check Here if you don't want to share this game's ART to the OPLM server. </value></data>
+  <data name="ToolsCleanFiles_GroupActionDelete" xml:space="preserve"><value>Delete files</value></data>
+  <data name="ToolsCleanFiles_GroupActionDryRun" xml:space="preserve"><value>Dry run</value></data>
+  <data name="OpsCfgEditor_ThemeReqNotice" xml:space="preserve"><value>Note: You'll need a compatible theme to be able to use all these new features. Click to check the list of compatible themes.</value></data>
+  <data name="ToolsIsoCreator_NoSourceFileSpecified" xml:space="preserve"><value>No source file specified!</value></data>
+  <data name="GLOBAL_DEVICE" xml:space="preserve"><value>Device</value></data>
+  <data name="MAIN_TAB_MAIN_DETAIS_PATH" xml:space="preserve"><value>Path:</value></data>
+  <data name="ToolsCleanFiles_Title" xml:space="preserve"><value>Clean files</value></data>
+  <data name="ToolsConvertIsoNames_Title" xml:space="preserve"><value>Convert between both ISO file name formats</value></data>
+  <data name="ToolsConvertIsoNames_ToOld" xml:space="preserve"><value>Convert to OLD format</value></data>
+  <data name="ToolsConvertIsoNames_ToNew" xml:space="preserve"><value>Convert to NEW format</value></data>
+  <data name="CfgEditor_GetTitle" xml:space="preserve"><value>Get Title</value></data>
+  <data name="OpsCfgEditor_Scan_720pGSM" xml:space="preserve"><value>720p - (GSM setting)</value></data>
+  <data name="OpsCfgEditor_Description" xml:space="preserve"><value>Description:</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_WITH_DISC_OR_AND_COVER" xml:space="preserve"><value>Cover and/or Disc</value></data>
+  <data name="ToolsDiskToIsoZso_IsoFileAlreadyExists" xml:space="preserve"><value>The ISO file already exists</value></data>
+  <data name="ToolsCleanFiles_GroupActionMoveFiles" xml:space="preserve"><value>Move files to other folder</value></data>
+  <data name="ToolsDiskToIsoZso_ZsoFileAlreadyExists" xml:space="preserve"><value>The ZSO file already exists</value></data>
+  <data name="BatchArtShare_MsgIgnoringGame" xml:space="preserve"><value>Ignoring share of:</value></data>
+  <data name="MAIN_TAB_MAIN_DETAIS_ID" xml:space="preserve"><value>ID:</value></data>
+  <data name="GLOBAL_TITLE" xml:space="preserve"><value>Title</value></data>
+  <data name="SettingModeSelect_SetNet" xml:space="preserve"><value>Network Settings</value></data>
+  <data name="OpsCfgEditor_RatingSet" xml:space="preserve"><value>Set as default</value></data>
+  <data name="OpsCfgEditorVmcBrowse_MsgNoVmcFilesFound" xml:space="preserve"><value>No VMC files found</value></data>
+  <data name="Global_Canceling" xml:space="preserve"><value>Canceling...</value></data>
+  <data name="ToolsIsoCreator_DriveNotReady" xml:space="preserve"><value>The drive is not ready!</value></data>
+  <data name="OpsCheatEditor2_Title" xml:space="preserve"><value>PS2 Cheat Editor</value></data>
+  <data name="MAIN_TOOLBAR_FILE_REFRESHINVALIDATE" xml:space="preserve"><value>Invalidate cache and refresh list</value></data>
+  <data name="MAIN_TOOLBAR_BATCH_UPGRADE_CFG" xml:space="preserve"><value>Upgrade old CFGs</value></data>
+  <data name="BatchCfgUpdate_BtnStart" xml:space="preserve"><value>Start</value></data>
+  <data name="OpsCfgEditorGlobalSettings" xml:space="preserve"><value>Global Settings</value></data>
+  <data name="BatchArtShare_MsgFolderNotSelected" xml:space="preserve"><value>You didn't select a folder to save the art!</value></data>
+  <data name="Global_OutputDirectory" xml:space="preserve"><value>Output directory</value></data>
+  <data name="ToolsConvertVcdNames_CbDeleteElfs" xml:space="preserve"><value>Delete ELFs</value></data>
+  <data name="GLOBAL_FOLDER" xml:space="preserve"><value>Folder</value></data>
+  <data name="SettingsIsoNaming_Old" xml:space="preserve"><value>Now using the OLD ISO format.
+Ex: SLUS_200.66.Half-Life3.iso</value></data>
+  <data name="SettingsIsoNaming_New" xml:space="preserve"><value>Now using the NEW ISO format.
+Ex: Half-Life3.iso</value></data>
+  <data name="MAIN_STRINGS_NOT_AVAILABLE" xml:space="preserve"><value>N/A</value></data>
+  <data name="MAIN_TOOLBAR_TOOLS_CLEAN_FILES" xml:space="preserve"><value>Clean files</value></data>
+  <data name="OpsCheatEditor1_Codes_UndoMuteCDDA" xml:space="preserve"><value>Unmutes CDDA tracks in PS1CD mode.</value></data>
+  <data name="SettingsChangeLanguage_Title" xml:space="preserve"><value>Change Language</value></data>
+  <data name="OpsArtDownload_IgnoreGameExplain" xml:space="preserve"><value>Remember, please only share good quality and the correct ART to the OPLM server.
+It is highly recommended to check this when your ART is not good enough to share to the OPLM Server.</value></data>
+  <data name="OpsCfgEditor_Scan_240pHex" xml:space="preserve"><value>240p - (HEX ISO Hack)</value></data>
+  <data name="ToolsConvertVcdNames_ErrorDeletingFile" xml:space="preserve"><value>ERROR DELETING FILE!!!</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_MISSING" xml:space="preserve"><value>Show only games with missing...</value></data>
+  <data name="ToolsConvertIsoNames_TableOriginal" xml:space="preserve"><value>Original</value></data>
+  <data name="OpsCfgEditor_Developer" xml:space="preserve"><value>Developer:</value></data>
+  <data name="GlobalFileExists" xml:space="preserve"><value>The selected file already exists!</value></data>
+  <data name="OpsCheatEditor1_Codes_SubCdStatus" xml:space="preserve"><value>A variant of $COMPATIBILITY_0×05.</value></data>
+  <data name="MAIN_TOOLBAR_FILE_REFRESH" xml:space="preserve"><value>Refresh list</value></data>
+  <data name="MAIN_STRINGS_CFGDEV_ACTIVATED" xml:space="preserve"><value>Now using CFG-DEV folder</value></data>
+  <data name="MainBad_TryUpdateFileName" xml:space="preserve"><value>Try update file name.</value></data>
+  <data name="SettingModeSelect_SetNormalPath" xml:space="preserve"><value>Path:</value></data>
+  <data name="SettingModeSelect_SetNormalHint" xml:space="preserve"><value>Type path to OPL folder or search with \"Browse...\"</value></data>
+  <data name="OpsCfgEditor_Scan_480pCircleCross" xml:space="preserve"><value>480p - (press Circle and Cross when loading game)</value></data>
+  <data name="OpsCfgEditorGsmFieldFix" xml:space="preserve"><value>Emulate FIELD Flipping</value></data>
+  <data name="MAIN_TOOLBAR_SETTINGS_ISO_FORMAT" xml:space="preserve"><value>Change ISO naming format</value></data>
+  <data name="MAIN_STRINGS_CFGDEV_DISABLED" xml:space="preserve"><value>Now using the default CFG folder</value></data>
+  <data name="OpsCfgEditor_CompatibilityModes_Mode" xml:space="preserve"><value>Mode</value></data>
+  <data name="BatchArtShare_MsgZipError" xml:space="preserve"><value>Can\'t create a zip file because you didn't select a location!</value></data>
+  <data name="BatchArtShare_MsgZipOffer" xml:space="preserve"><value>Would you like to zip the shared art?</value></data>
+  <data name="OpsArtDownload_ResizeQuestion" xml:space="preserve"><value>Image size and/or format incorrect. Auto convert to {0}?</value></data>
+  <data name="ToolsCleanFiles_LogFoundNoFiles" xml:space="preserve"><value>No files found!</value></data>
+  <data name="MAIN_TOOLBAR_NETWORKOPTIONS_GETGAMES" xml:space="preserve"><value>Get game list from ps2</value></data>
+  <data name="OpsCfgEditor_Genre_Opt28" xml:space="preserve"><value>Visual Novel</value></data>
+  <data name="OpsCfgEditor_Genre_Opt20" xml:space="preserve"><value>Shooter</value></data>
+  <data name="OpsCfgEditor_Genre_Opt21" xml:space="preserve"><value>Simulation / SIM</value></data>
+  <data name="OpsCfgEditor_Genre_Opt22" xml:space="preserve"><value>Sports</value></data>
+  <data name="OpsCfgEditor_Genre_Opt23" xml:space="preserve"><value>Strategy</value></data>
+  <data name="OpsCfgEditor_Genre_Opt24" xml:space="preserve"><value>Survival</value></data>
+  <data name="OpsCfgEditor_Genre_Opt25" xml:space="preserve"><value>Third-Person Action</value></data>
+  <data name="OpsCfgEditor_Genre_Opt26" xml:space="preserve"><value>Third-Person Shooter</value></data>
+  <data name="OpsCfgEditor_Genre_Opt27" xml:space="preserve"><value>Turn-Based Strategy</value></data>
+  <data name="OpsCfgEditor_Genre_Opt19" xml:space="preserve"><value>Sci-Fi</value></data>
+  <data name="OpsCfgEditor_Genre_Opt18" xml:space="preserve"><value>RPG</value></data>
+  <data name="OpsCfgEditor_Genre_Opt13" xml:space="preserve"><value>Music</value></data>
+  <data name="OpsCfgEditor_Genre_Opt12" xml:space="preserve"><value>Miscellaneous</value></data>
+  <data name="OpsCfgEditor_Genre_Opt11" xml:space="preserve"><value>Hunting / Outdoors</value></data>
+  <data name="OpsCfgEditor_Genre_Opt10" xml:space="preserve"><value>Horror</value></data>
+  <data name="OpsCfgEditor_Genre_Opt17" xml:space="preserve"><value>Racing</value></data>
+  <data name="OpsCfgEditor_Genre_Opt16" xml:space="preserve"><value>Puzzle</value></data>
+  <data name="OpsCfgEditor_Genre_Opt15" xml:space="preserve"><value>Platform</value></data>
+  <data name="OpsCfgEditor_Genre_Opt14" xml:space="preserve"><value>Pinball</value></data>
+  <data name="OpsCfgEditor_Genre_Opt08" xml:space="preserve"><value>Fighting</value></data>
+  <data name="OpsCfgEditor_Genre_Opt09" xml:space="preserve"><value>Flight Simulator</value></data>
+  <data name="OpsCfgEditor_Genre_Opt02" xml:space="preserve"><value>Adventure</value></data>
+  <data name="OpsCfgEditor_Genre_Opt03" xml:space="preserve"><value>Arcade / Retro</value></data>
+  <data name="OpsCfgEditor_Genre_Opt01" xml:space="preserve"><value>Action</value></data>
+  <data name="OpsCfgEditor_Genre_Opt06" xml:space="preserve"><value>Compilation</value></data>
+  <data name="OpsCfgEditor_Genre_Opt07" xml:space="preserve"><value>Dance / Exercise</value></data>
+  <data name="OpsCfgEditor_Genre_Opt04" xml:space="preserve"><value>Art / Build</value></data>
+  <data name="OpsCfgEditor_Genre_Opt05" xml:space="preserve"><value>Cards / Casino</value></data>
+  <data name="GLOBAL_BUTTON_BROWSE" xml:space="preserve"><value>Browse</value></data>
+  <data name="MAIN_TAB_MAIN_GLOBALSTATS_TOTAL" xml:space="preserve"><value>Total</value></data>
+  <data name="MAIN_TAB_MAIN_GLOBALSTATS_COUNT" xml:space="preserve"><value>Count</value></data>
+  <data name="ToolsDiskToIsoZso_IsoFileNotFound" xml:space="preserve"><value>The ISO file was not found</value></data>
+  <data name="OpsArtDownload_NoIcoFound" xml:space="preserve"><value>No Disk found!</value></data>
+  <data name="OpsArtDownloadScreenBrowser_Title" xml:space="preserve"><value>ScreenShot Database Browser</value></data>
+  <data name="MAIN_TOOLBAR_TOOLS_GALLERY" xml:space="preserve"><value>Game Gallery (OPL Simulator)</value></data>
+  <data name="MAIN_TOOLBAR_BATCH_COVER_DISC_DOWNLOAD" xml:space="preserve"><value>ART Download</value></data>
+  <data name="OpsCheatEditor1_Codes_Eyefinity" xml:space="preserve"><value>Same as $WIDESCREEN, with 3×16:9 aspect ratio.</value></data>
+  <data name="OpsArtDownload_WarnLabVertical" xml:space="preserve"><value>The image is horizontal! Make sure it's vertical and the PS2 logo is on TOP!</value></data>
+  <data name="ToolsIsoCreator_FromImageFile" xml:space="preserve"><value>From image file</value></data>
+  <data name="OpsCfgEditor_ComboNotSetUnknown" xml:space="preserve"><value>Not set / unknown</value></data>
+  <data name="ToolsConvertIsoNames_TableConverted" xml:space="preserve"><value>Converted</value></data>
+  <data name="OpsCheatEditor1_Codes_HDTVfix" xml:space="preserve"><value>Enables SetGsCrt hack.</value></data>
+  <data name="ToolsConvertIsoNames_DeselectAll" xml:space="preserve"><value>Deselect All</value></data>
+  <data name="ConfigIO_FileWriteFail" xml:space="preserve"><value>Failed to write the CFG! Restoring the backup!</value></data>
+  <data name="MAIN_TAB_MAIN_OPERATIONS_EDIT_CFG" xml:space="preserve"><value>Edit CFG</value></data>
+  <data name="GLOBAL_BUTTON_START" xml:space="preserve"><value>Start</value></data>
+  <data name="GLOBAL_BUTTON_CLOSE" xml:space="preserve"><value>Close</value></data>
+  <data name="OpsArtDownload_ConnectFail" xml:space="preserve"><value>Connection to the server failed.</value></data>
+  <data name="GLOBAL_BUTTON_CANCEL" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Global_LogCopied" xml:space="preserve"><value>Log copied to the clipboard!</value></data>
+  <data name="Global_Information" xml:space="preserve"><value>Information</value></data>
+  <data name="ToolsConvertVcdNames_RenamingGame" xml:space="preserve"><value>Renaming '{0}'</value></data>
+  <data name="ToolsIsoCreator_OpenFile" xml:space="preserve"><value>Open file</value></data>
+  <data name="BatchCfgUpdate_Title" xml:space="preserve"><value>Update Old CFG's</value></data>
+  <data name="MAIN_TAB_MAIN_DETAIS_TITLE" xml:space="preserve"><value>Title:</value></data>
+  <data name="OpsCfgEditor_Scan_480pPs2rd" xml:space="preserve"><value>480p - (ps2rd Hack)</value></data>
+  <data name="OpsCheatEditor1_Codes_UltraWidescreen" xml:space="preserve"><value>Same as $WIDESCREEN, but wider FOV.</value></data>
+  <data name="GLOBAL_STRING_YES" xml:space="preserve"><value>Yes</value></data>
+  <data name="Global_Enable" xml:space="preserve"><value>Enable</value></data>
+  <data name="MainBad_GetTitleFromDB" xml:space="preserve"><value>Get title from DB</value></data>
+  <data name="OpsCfgEditor_GameRating" xml:space="preserve"><value>Game Rating</value></data>
+  <data name="OpsArtDownload_NoCov2Found" xml:space="preserve"><value>No Back Cover found!</value></data>
+  <data name="GLOBAL_STRING_NO" xml:space="preserve"><value>No</value></data>
+  <data name="ToolsDiskToIsoZso_UseOldFormat" xml:space="preserve"><value>Use old filename format</value></data>
+  <data name="GLOBAL_OLD" xml:space="preserve"><value>Old</value></data>
+  <data name="GLOBAL_NEW" xml:space="preserve"><value>New</value></data>
+  <data name="Global_Progress" xml:space="preserve"><value>Progress</value></data>
+  <data name="MAIN_TAB_MAIN_OPERATIONS_CHEAT_EDITOR" xml:space="preserve"><value>Cheat Editor</value></data>
+  <data name="OpsCheatEditor1_Codes_Smooth" xml:space="preserve"><value>Enables the smooth texture mapping at startup.</value></data>
+  <data name="ToolsConvertVcdNames_RenamingCfgBak" xml:space="preserve"><value>CFG BAK RENAME:</value></data>
+  <data name="BatchArtShare_MsgFolderNotExists" xml:space="preserve"><value>The folder you selected doesn't exists!</value></data>
+  <data name="OpsCheatEditor_CreateNewMessage" xml:space="preserve"><value>No cheat file found. Create one?</value></data>
+  <data name="OpsCfgEditorGlobalSettingsPerGame" xml:space="preserve"><value>Per Game</value></data>
+  <data name="ToolsConvertIsoZso_SelectMode" xml:space="preserve"><value>Select mode</value></data>
+  <data name="OpsCfgEditor_DefaultRatingSystemPrompt" xml:space="preserve"><value>Would you like to set {0} as the default rating system?</value></data>
+  <data name="ToolsConvertVcdNames_FoundXincorretVCDs" xml:space="preserve"><value>Found {0}  incorrectly named VCDs!</value></data>
+  <data name="OpsCheatEditor__Delete" xml:space="preserve"><value>Delete cheat file</value></data>
+  <data name="MAIN_TOOLBAR_FILE" xml:space="preserve"><value>File</value></data>
+  <data name="MAIN_TOOLBAR_VIEW" xml:space="preserve"><value>View</value></data>
+  <data name="MAIN_TOOLBAR_HELP" xml:space="preserve"><value>Help</value></data>
+  <data name="OpsCheatEditor1_Codes_D2LS_ALT" xml:space="preserve"><value>'Left Stick is the D-Pad' code + Stay on Analog Mode.</value></data>
+  <data name="MAIN_TAB_MAIN_OPERATIONS" xml:space="preserve"><value>Operations:</value></data>
+  <data name="ToolsCleanFiles_LogScanning" xml:space="preserve"><value>Scanning for files...</value></data>
+  <data name="SettingModeSelect_SetNetTest" xml:space="preserve"><value>Test</value></data>
+  <data name="MAIN_STRINGS_DELETE_GAME_PROMPT" xml:space="preserve"><value>Delete {0}?
+File: {1}</value></data>
+  <data name="SettingModeSelect_HddRunAsAdministrator" xml:space="preserve"><value>Make sure to run OPLM as administrator!</value></data>
+  <data name="OpsCheatEditor_DeleteConfirm" xml:space="preserve"><value>Cheat deleted successfully.</value></data>
+  <data name="OpsCheatEditor1_Codes_MuteCDDA" xml:space="preserve"><value>Mutes CDDA tracks.</value></data>
+  <data name="MAIN_TOOLBAR_HELP_LOG" xml:space="preserve"><value>Changelog</value></data>
+  <data name="MAIN_TAB_MAIN_TABLE_COL_ID" xml:space="preserve"><value>ID</value></data>
+  <data name="OpsCheatEditor1_Codes_NoVMC1" xml:space="preserve"><value>Use VMC0 only.</value></data>
+  <data name="OpsCheatEditor1_Codes_NoVMC0" xml:space="preserve"><value>Use VMC1 only.</value></data>
+  <data name="OpsArtDownload_SizeGenericResize" xml:space="preserve"><value>Image should be {0} and JPG format. Resize/Convert?</value></data>
+  <data name="MainCreateFoldersQuestion" xml:space="preserve"><value>Would you like to create ART/CFG/CD/DVD folders?</value></data>
+  <data name="ToolsConvertIsoZso_Title" xml:space="preserve"><value>Convert between ISO/ZSO</value></data>
+  <data name="MAIN_TAB_MAIN_DETAIS" xml:space="preserve"><value>Game Details:</value></data>
+  <data name="BatchArtDownload_OptExtraCov" xml:space="preserve"><value>Download Cover</value></data>
+  <data name="BatchArtDownload_OptExtraScr" xml:space="preserve"><value>Download random Screenshots</value></data>
+  <data name="OpsCheatEditor1_Codes_DWSTRETCH" xml:space="preserve"><value>Stretches the display horizontally to your screen.</value></data>
+  <data name="OpsArtDownload_PngWarning" xml:space="preserve"><value>Your ART is not optimized for OPL performance, Please Update Your Art Files</value></data>
+  <data name="OpsCheatEditor1_Codes_DWCROP" xml:space="preserve"><value>Reduces/expands the display area width.</value></data>
+  <data name="OpsCheatEditor1_Title" xml:space="preserve"><value>PS1 Cheat Editor</value></data>
+  <data name="OpsArtDownloadScreenBrowser_Select" xml:space="preserve"><value>Select!</value></data>
+  <data name="ToolsCleanFiles_GroupTypes" xml:space="preserve"><value>Types</value></data>
+  <data name="ConfigIO_UpgradingFromTo" xml:space="preserve"><value>Upgrading from CFG V.{0} to V.{1} ...</value></data>
+  <data name="BatchArtShare_SharedArts" xml:space="preserve"><value>Shared Arts</value></data>
+  <data name="MAIN_TOOLBAR_VIEW_ALL" xml:space="preserve"><value>Show All</value></data>
+  <data name="BatchArtShare_ShareTo" xml:space="preserve"><value>Share to...</value></data>
+  <data name="OpsArtDownload_ResizeWrongAspect" xml:space="preserve"><value>Image has wrong aspect ratio.</value></data>
+  <data name="ToolsConvertVcdNames_RememberElf" xml:space="preserve"><value>REMEMBER to place POPSTARTER.ELF inside the POPS folder, near your VCDs.</value></data>
+  <data name="DialogLoadingGames_Title" xml:space="preserve"><value>Loading games...</value></data>
+  <data name="OpsCfgEditor_Scan_1080iGame" xml:space="preserve"><value>1080i - (can be set in game's settings)</value></data>
+  <data name="OpsArtDownload_Connecting" xml:space="preserve"><value>Fetching available ART from the server...</value></data>
+  <data name="ToolsConvertVcdNames_ErrorRenamingFile" xml:space="preserve"><value>ERROR RENAMING FILE!!!</value></data>
+  <data name="CfgEditor_GetTitleError" xml:space="preserve"><value>Unknown game.</value></data>
+  <data name="MAIN_STRINGS_OPL_FOLDER_LOAD_ERROR" xml:space="preserve"><value>No CD or DVD or ART folder found in the selected OPL folder...
+  Make sure this is the correct folder!</value></data>
+  <data name="MainBad_CurrentFile" xml:space="preserve"><value>Current File Name:</value></data>
+  <data name="OpsCheatEditor1_Codes_FakeLC" xml:space="preserve"><value>Loads a null LibCrypt magic word into the cop0 register.</value></data>
+  <data name="BatchArtDownload_WindowTitle" xml:space="preserve"><value>Batch game ART download</value></data>
+  <data name="MAIN_TOOLBAR_OPEN_OPL_FOLDER" xml:space="preserve"><value>Open OPL folder</value></data>
+  <data name="ToolsConvertIsoZso_SelectFiles" xml:space="preserve"><value>Select files</value></data>
+  <data name="BatchArtDownload_ServerReplyError" xml:space="preserve"><value>Failed to get a reply from the server!</value></data>
+  <data name="ToolsConvertIsoNames_Explanation" xml:space="preserve"><value>What is NEW and OLD format? 
+Example:
+Title: Half-Life 3
+OLD: SLUS_200.66.Half-Life 3.iso
+NEW: Half-Life 3.iso</value></data>
+  <data name="Global_RatioZso" xml:space="preserve"><value>Ratio</value></data>
+  <data name="MAIN_TOOLBAR_TOOLS_CONVERT_ISO_NAMING" xml:space="preserve"><value>Convert ISO naming formats</value></data>
+  <data name="OpsCfgEditor_Scan_480pHex" xml:space="preserve"><value>480p - (HEX ISO Hack)</value></data>
+  <data name="OpsCfgEditor_Scan_480pGSM" xml:space="preserve"><value>480p - (GSM setting)</value></data>
+  <data name="OpsCfgEditor_Scan" xml:space="preserve"><value>Scan:</value></data>
+  <data name="OpsCheatEditor1_Codes_Cache1" xml:space="preserve"><value>Makes POPS buffer 1 sector instead of 16.</value></data>
+  <data name="SettingsGameDoubleClick_Title" xml:space="preserve"><value>Set Double Click Action</value></data>
+  <data name="OpsCheatEditor1_Codes_Safemode" xml:space="preserve"><value>Disables the cheat engine and only activate it after POPS has left the PS OSD.</value></data>
+  <data name="OpsCfgEditorVmcBrowse_MsgVmcFolderMissing" xml:space="preserve"><value>VMC folder doesn't exist</value></data>
+  <data name="ToolsConvertIsoNames_Rename" xml:space="preserve"><value>Rename</value></data>
+  <data name="ToolsCleanFiles_Explanation" xml:space="preserve"><value>This tool can be used to clean files for games that you no longer have.
+It can perform three different actions:
+- "Dry run" to list the files without doing anything
+- "Move files to other folder" will move the files to a directory of your choosing, it's safer than the delete option
+- "Delete files" to DELETE the files PERMANENTLY</value></data>
+  <data name="BatchArtShare_MsgFinished" xml:space="preserve"><value>Finished ART sharing!</value></data>
+  <data name="OpsCfgEditor_Vmc" xml:space="preserve"><value>Virtual Memory Cards (VMCs)</value></data>
+  <data name="OpsCfgEditor_ID" xml:space="preserve"><value>Game ID:</value></data>
+  <data name="ToolsDiskToIsoZso_DiskDrive" xml:space="preserve"><value>Disk drive</value></data>
+  <data name="OpsArtDownload_Help" xml:space="preserve"><value>Keyboard shortcuts:
+Left Arrow:  Previous Game
+Right Arrow: Next Game</value></data>
+  <data name="ToolsCleanFiles_LogFoundDelete" xml:space="preserve"><value>The following files were deleted:</value></data>
+  <data name="OpsCfgEditor_CompatibleDevices" xml:space="preserve"><value>Compatible devices</value></data>
+  <data name="BatchArtDownload_OptExtra" xml:space="preserve"><value>Download options:</value></data>
+  <data name="ToolsCleanFiles_LogFoundMove" xml:space="preserve"><value>The following files were moved to the selected folder:</value></data>
+  <data name="OpsCfgEditor_ComboNotSet" xml:space="preserve"><value>Not set</value></data>
+  <data name="OpsCheatEditor1_Codes_Widescreen" xml:space="preserve"><value>Enables POPS GTE widescreen hack and forces 16:9.</value></data>
+  <data name="OpsArtDownload_NoCovFound" xml:space="preserve"><value>No Front Cover found!</value></data>
+  <data name="ToolsConvertIsoNames_SelectAll" xml:space="preserve"><value>Select All</value></data>
+  <data name="MAIN_STRINGS_BAD_ISO_WARN" xml:space="preserve"><value>{0} invalid files. Showing {1} tab</value></data>
+  <data name="OpsCfgEditorGlobalSettingsGlobal" xml:space="preserve"><value>Global</value></data>
+  <data name="ToolsConvertIsoNames_TableMedium" xml:space="preserve"><value>Medium</value></data>
+  <data name="BatchArtDownload_Title" xml:space="preserve"><value>Title:</value></data>
+  <data name="ToolsDiskToIsoZso_DriveNotCdRom" xml:space="preserve"><value>The drive is not a CDRom</value></data>
+  <data name="MAIN_STRINGS_OPL_FOLDER_NOT_SET" xml:space="preserve"><value>No OPL directory set!</value></data>
+  <data name="GLOBAL_FILENAME" xml:space="preserve"><value>Filename</value></data>
+  <data name="ToolsIsoCreator_IsoAborted" xml:space="preserve"><value>Iso creation aborted!</value></data>
+  <data name="MAIN_TOOLBAR_SETTINGS_MODE" xml:space="preserve"><value>Change Mode/OPL Folder</value></data>
+  <data name="OpsCfgEditor_DefaultRatingSystemPromptSucess" xml:space="preserve"><value>{0}  is now the default rating system!</value></data>
+  <data name="OpsCheatEditor1_Codes_ForcePal" xml:space="preserve"><value>Forces the activation of the PAL patcher (POPS will run it PAL) and patches the BIOS region code to Euro (shows the boot screen in PAL).</value></data>
+  <data name="MAIN_TOOLBAR_NETWORKOPTIONS_SYNCFILES" xml:space="preserve"><value>Sync files to ps2 via FTP</value></data>
+  <data name="BatchArtShare_Uploaded" xml:space="preserve"><value>Uploaded:</value></data>
+  <data name="SettingsIsoNaming_Title" xml:space="preserve"><value>ISO Naming Format</value></data>
+  <data name="ToolsConvertVcdNames_Title" xml:space="preserve"><value>Batch Convert VCD Naming</value></data>
+  <data name="GLOBAL_STRING_SPINE" xml:space="preserve"><value>Spine</value></data>
+  <data name="MAIN_STRINGS_RENAME_FILE_ORIGINAL" xml:space="preserve"><value>The original file can\'t be located!</value></data>
+  </root>
